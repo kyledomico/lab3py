@@ -16,6 +16,8 @@ def sum_n(n):
 def print_n(s,n):
   if n == 1:
     return print(s)
+  elif n < 1:
+    return
   else:
     print(s)
     print_n(s,n-1)
